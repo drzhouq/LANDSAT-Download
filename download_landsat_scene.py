@@ -423,12 +423,14 @@ def main():
                 repert='12864'
             stations=['LGN']
         if produit.startswith('LE7'):
-            repert='3373'
+            #repert='3373'
+            repert='12267'
             #repert='3372"
             stations=['EDC','SGS','AGS','ASN','SG1','CUB','COA']
         if produit.startswith('LT5'):
-            repert='3119'
-            stations=['GLC','ASA','KIR','MOR','KHC', 'PAC', 'KIS', 'CHM', 'LGS', 'MGR', 'COA', 'MPS', 'CUB']		
+            #repert='3119'
+            repert='12266'
+            stations=['GLC','ASA','KIR','MOR','KHC', 'PAC', 'KIS', 'CHM', 'LGS', 'MGR', 'COA', 'MPS', 'CUB','XXX']		
         
         if options.station !=None:
             stations=[options.station]
